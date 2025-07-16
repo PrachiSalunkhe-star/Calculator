@@ -7,8 +7,11 @@ A simple calculator program in C typically takes two numbers and an operator as 
   
 **Variable Declaration**
     choice(int): Stores the arithmetic operator number entered by the user.
+    
     op1, op2 (integer): Store the two numbers for calculation. int is used to handle integer values.
+    
     res (integer): Stores the outcome of the calculation.
+    
     Input:
     The program prompts the user to enter an operator number and then two numbers.
     scanf(" %d", &choice); reads the  operator. 
