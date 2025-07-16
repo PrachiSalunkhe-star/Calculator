@@ -3,6 +3,8 @@ A simple calculator program in C typically takes two numbers and an operator as 
 
 **Include Header:**
   The stdio.h header is included for standard input/output functions like printf and scanf.
+
+  
 **Variable Declaration**
     choice(int): Stores the arithmetic operator number entered by the user.
     op1, op2 (integer): Store the two numbers for calculation. int is used to handle integer values.
@@ -11,6 +13,8 @@ A simple calculator program in C typically takes two numbers and an operator as 
     The program prompts the user to enter an operator number and then two numbers.
     scanf(" %d", &choice); reads the  operator. 
     scanf("%d %d", &op1, &op2); reads the two integer numbers.
+
+ 
 **Switch Statement**
   The switch statement evaluates the choice variable.
   Each case corresponds to a specific operator (+, -, *, /).
