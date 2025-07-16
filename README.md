@@ -20,7 +20,10 @@ A simple calculator program in C typically takes two numbers and an operator as 
  
 **Switch Statement**
   The switch statement evaluates the choice variable.
+  
   Each case corresponds to a specific operator (+, -, *, /).
+  
   The appropriate arithmetic operation is performed, and the result is stored in the res variable.
+  
   Division by Zero Handling: For division, a check if (op2 != 0) is included to prevent division by zero, which would cause a runtime error. An error message is printed if op2 is zero.
   break; statements are used to exit the switch block after a matching case is found.  
